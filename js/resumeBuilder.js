@@ -17,7 +17,8 @@ var bio = {
 	"pictureUrl": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAk_AAAAJGExYjBjMzg0LWU5MzAtNDFhNy05NWJkLTJhNTE5NWNiNDMxMA.jpg",
 	"welcomeMessage": "Hey there, I am a research assistant working in Boston and I am exploring \
 	software development. This is my first project, and I am looking forward to many more!",
-	"skills": ["bench science", "research", "event planning", "programming", "helping people solve problems"]
+	"skills": ["bench science", "research", "event planning", "programming", "helping people solve problems"],
+	"interests": ["Health", "Volunteering", "Conversations about current events", "Cooking with friends", "Analogue photography", "Travel", "Running", "Reading non-fiction", "Podcasts", "Music"]
 }
 
 var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
@@ -35,6 +36,12 @@ var formattedSkill;
 for (var i=0; i < bio["skills"].length; i++) {
 	formattedSkill = HTMLskills.replace("%data%", bio.skills[i]);
 	$("#skills").append(formattedSkill);
+}
+$("#header").append(HTMLinterestsStart);
+var formattedInterest;
+for (var i=0; i < bio["interests"].length; i++) {
+	formattedInterest = HTMLinterests.replace("%data%", bio.interests[i]);
+	$("#interests").append(formattedInterests);
 }
 
 
@@ -167,6 +174,7 @@ var projects = {
 		}
 	]
 }
+
 
 function displayWork(){
 	var workArray = work["jobs"];

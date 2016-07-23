@@ -31,6 +31,9 @@ var HTMLwelcomeMsg = '<span class="welcome-message">%data%</span>';
 var HTMLskillsStart = '<h3 id="skills-h3">SKILLS AT A GLANCE:</h3><ul id="skills" class="flex-box"></ul>';
 var HTMLskills = '<li class="flex-item"><span class="black-text">%data%</span></li>';
 
+var HTMLinterestsStart = '<h3 id="skills-h3">INTERESTS:</h3><ul id="skills" class="flex-box"></ul>';
+var HTMLinterests = '<li class="flex-item"><span class="black-text">%data%</span></li>';
+
 var HTMLworkStart = '<div class="work-entry"></div>';
 var HTMLworkEmployer = '<a href="#">%data%';
 var HTMLworkTitle = ' - %data%</a>';
