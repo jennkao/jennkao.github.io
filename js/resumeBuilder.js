@@ -78,7 +78,7 @@ var work = {
 			"location": "Boston, MA, USA",
 			"dates": "07/14 - present",
 			"url": "http://www.idi.harvard.edu/investigators_research/investigator/alt_lab/",
-			"description": ""
+			"description": "HELLO"
 		}, 
 		{
 			"position": "Undergraduate Researcher",
