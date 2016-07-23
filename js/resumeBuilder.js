@@ -42,9 +42,8 @@ $("#header").append(HTMLinterestsStart);
 var formattedInterest;
 for (var i=0; i < bio["interests"].length; i++) {
 	formattedInterest = HTMLinterests.replace("%data%", bio.interests[i]);
-	$("#interests").append(formattedInterests);
+	$("#interests").append(formattedInterest);
 }
-
 
 var education = {
 	"schools": [
