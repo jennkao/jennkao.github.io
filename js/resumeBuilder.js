@@ -37,6 +37,7 @@ for (var i=0; i < bio["skills"].length; i++) {
 	formattedSkill = HTMLskills.replace("%data%", bio.skills[i]);
 	$("#skills").append(formattedSkill);
 }
+
 $("#header").append(HTMLinterestsStart);
 var formattedInterest;
 for (var i=0; i < bio["interests"].length; i++) {
