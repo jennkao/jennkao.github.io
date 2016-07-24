@@ -18,12 +18,12 @@ var HTMLheaderRole = '<div class="role-text">%data%</div>';
 
 var HTMLcontactGeneric = '<li class="flex-item"><span class="orange-text">%contact%</span><span class="white-text">%data%</span></li>';
 var HTMLcontactsStart = '<ul id="contacts" class="flex-box"></ul>';
-var HTMLmobile = '<li class="flex-item"><span class="contact-text">mobile</span><span class="black-text">%data%</span></li>';
-var HTMLemail = '<li class="flex-item"><span class="contact-text">email</span><span class="black-text">%data%</span></li>';
-var HTMLtwitter = '<li class="flex-item"><span class="contact-text">twitter</span><span class="black-text">%data%</span></li>';
-var HTMLgithub = '<li class="flex-item"><span class="contact-text">github</span><span class="black-text">%data%</span></li>';
-var HTMLblog = '<li class="flex-item"><span class="contact-text">blog</span><span class="black-text">%data%</span></li>';
-var HTMLlocation = '<li class="flex-item"><span class="contact-text">location</span><span class="black-text">%data%</span></li>';
+var HTMLmobile = '<li class="flex-item"><span class="contact-text">mobile</span><span class="contactInfo-text">%data%</span></li>';
+var HTMLemail = '<li class="flex-item"><span class="contact-text">email</span><span class="contactInfo-text">%data%</span></li>';
+var HTMLtwitter = '<li class="flex-item"><span class="contact-text">twitter</span><span class="contactInfo-text">%data%</span></li>';
+var HTMLgithub = '<li class="flex-item"><span class="contact-text">github</span><span class="contactInfo-text">%data%</span></li>';
+var HTMLblog = '<li class="flex-item"><span class="contact-text">blog</span><span class="contactInfo-text">%data%</span></li>';
+var HTMLlocation = '<li class="flex-item"><span class="contact-text">location</span><span class="contactInfo-text">%data%</span></li>';
 
 var HTMLbioPic = '<img src="%data%" class="biopic">';
 var HTMLwelcomeMsg = '<span class="welcome-message">%data%</span>';
@@ -32,7 +32,7 @@ var HTMLskillsStart = '<h3 id="skills-h3">SKILLS AT A GLANCE:</h3><ul id="skills
 var HTMLskills = '<li class="flex-item"><span class="black-text">%data%</span></li>';
 
 var HTMLinterestsStart = '<h3 id="skills-h3">INTERESTS:</h3><ul id="interests" class="flex-box"></ul>';
-var HTMLinterests = '<li class="flex-item"><span class="black-text">%data%</span></li>';
+var HTMLinterests = '<li class="interest-text"><span class="black-text">%data%</span></li>';
 
 var HTMLworkStart = '<div class="work-entry"></div>';
 var HTMLworkEmployer = '<a href="#">%data%';

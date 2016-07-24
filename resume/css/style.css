@@ -150,28 +150,30 @@ a {
 
 #topContacts {
   float: left;
-  margin-left: 14px;
-}
-
-.orange {
-  background-color: #f5ae23;
+  margin-left: 315px;
 }
 
 .contact-text {
   color: #40bf80;
-  padding: 5px;
-}
-
-.white-text {
-  font-weight: bold;
-  color: #fff;
-  padding: 5px;
+  padding: 10px;
 }
 
 .black-text {
   font-weight: normal;
   color: #000000;
-  padding: 5px;
+  padding: 15px;
+}
+
+.contactInfo-text {
+  font-weight: normal;
+  color: #000000;
+  padding-right: 60px;
+}
+
+.interest-text {
+  font-weight: normal;
+  color: #000000;
+  margin-top: 5px;
 }
 
 .gray {
