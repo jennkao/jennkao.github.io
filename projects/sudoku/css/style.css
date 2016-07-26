@@ -25,3 +25,23 @@ h1 {
 .col6 {
 	border-right: 3px solid;
 }
+
+#solve {
+	padding: 5px;
+	margin-top: 20px;
+	margin-left: 5px;
+}
+
+h2 {
+	font-size: 15px;
+}
+
+#title {
+	margin-bottom: 5px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
