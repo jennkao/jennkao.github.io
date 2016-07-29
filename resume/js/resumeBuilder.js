@@ -16,9 +16,9 @@ var bio = {
 	},
 	"pictureUrl": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAk_AAAAJGExYjBjMzg0LWU5MzAtNDFhNy05NWJkLTJhNTE5NWNiNDMxMA.jpg",
 	"welcomeMessage": "Hey there, I am a research assistant working in Boston and I am exploring \
-	software development. This is my first project, and I am looking forward to many more!",
+	software development. This is my first project, and I look forward to many more!",
 	"skills": ["bench science", "research", "project management", "programming", "helping people solve problems"],
-	"interests": ["cooking with friends", "analogue photography", "travel", "running", "reading non-fiction", "podcasts/music", "conversations about current events"]
+	"interests": ["cooking with friends", "analogue photography", "travel", "long-distance running", "reading non-fiction", "listening to podcasts/music", "watching movies", "discussing current events"]
 }
 
 var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
@@ -56,7 +56,7 @@ var education = {
 		},
 		{	"name": "Shanghai American School",
 			"location": "Shanghai, CHINA",
-			"degree": "High school diploma",
+			"degree": "High School Diploma",
 			"dates": "09/06 - 06/10",
 			"url": "http://www.saschina.org/en"
 		}
@@ -80,12 +80,28 @@ var education = {
 var work = {
 	"jobs" : [
 		{
-			"position": "Research Assistant",
+			"position": "Senior Research Assistant",
 			"employer": "The Alt Lab",
 			"location": "Boston, MA, USA",
 			"dates": "07/14 - present",
 			"url": "http://www.idi.harvard.edu/investigators_research/investigator/alt_lab/",
-			"description": "HELLO"
+			"description": "•	Co-authored academic papers published in Cell and the Proceedings of the \
+			National Academy of Sciences, which are ranked 3rd and 4th respectively on Google Scholar Top \
+			Publications for Life and Earth Sciences. \
+			<br> &emsp; &emsp;°	Applied a high-throughput sequencing technique to identify recurrent DNA double-stranded \
+			breaks in neural stem cells. \
+			<br> &emsp; &emsp;°	Processed and visualized sequencing data using python scripts, Microsoft Excel, and \
+			bioinformatic tools. \
+			<br> &emsp; &emsp;°	Analyzed data and derived conclusions by comparing and contrasting the results of different\
+			 experiments. \
+			<br> &emsp; &emsp;°	Presented findings, issues, and next steps to research team in weekly meetings and solicited \
+			feedback and insights. \
+			<br> •	Improved the visualization of chromosome alterations relevant to a pediatric brain tumor by \
+			testing a range of experimental conditions and developing a protocol that produces optimal images by microscopy. \
+			<br> •	As Lab Support Group Representative, disseminate safety and operations announcements to lab, \
+			conduct safety orientation for new employees, and oversee the lab’s annual safety audit and other compliance \
+			activities.\
+			<br> •	Manage a 500+ mouse colony for studies on aging and neurodegeneration and maintain lab inventory."
 		}, 
 		{
 			"position": "Undergraduate Researcher",
@@ -93,16 +109,9 @@ var work = {
 			"location": "Cambridge, MA, USA",
 			"dates": "09/13 - 05/14",
 			"url": "http://lodishlab.wi.mit.edu/",
-			"description": ""
-		},
-		{
-			"position": "Intern",
-			"employer": "Hospital of Special Surgery Women's Sports Medicine Center",
-			"location": "New York City, NY, USA",
-			"dates": "06/13 - 08/13",
-			"url": "https://www.hss.edu/womens-sports.asp",
-			"description": "Co-drafted a retrospective study paper studying the clinical outcomes of patients \
-			who have undergone patellofemoral replacement surgery for isolated patellofemoral arthritis.",
+			"description": "• Co-authored an academic paper published in the Proceedings of the National Academy of Sciences.\
+			<br> &emsp; &emsp;° Devised and optimized experiments to test the effect of certain pharmacological drugs on a cell-signaling pathway. \
+			<br> &emsp; &emsp;° Presented findings, issues, and next steps to research supervisor in weekly meetings."
 		},
 		{
 			"position": "Teaching Assistant for 7.02 (Experimental Biology)",
@@ -110,11 +119,10 @@ var work = {
 			"location": "Cambridge, MA, USA",
 			"dates": "08/12 - 12/12",
 			"url": "http://student.mit.edu/catalog/m7a.html#7.02",
-			"description": "Selected by class instructors to provide advice and \
-			assistance to students during bi-weekly 3-4 hr lab sessions. Facilitated \
-			greater understanding of course material by discussing experimental design,\
-			explaining difficult biological concepts, reviewing relevant literature, and \
-			compiling exam study guides."
+			"description": "• Led students through bi-weekly labs and graded class problem sets. Received 6.7/7.0 performance evaluation from \
+			students on criteria like “stimulated interest”, “used good examples”, and “encouraged participation”. \
+			<br> •	Elucidated experimental design principles and biological concepts, led discussions on \
+			scientific literature with students, and created exam study guides detailing key concepts and problem-solving strategies."
 		},
 		{
 			"position": "Project Manager",
@@ -122,7 +130,12 @@ var work = {
 			"location": "Cambridge, MA, USA",
 			"dates": "07/12 - 08/12",
 			"url": "http://education.mit.edu/",
-			"description": ""
+			"description": "•	Acted as point contact for the summer development plan of StarLogo Nova—a visual programming \
+			language for students—and led development team to debut the program as scheduled with extended functionality. \
+			Prioritized tasks, managed the work of 6 developers, and facilitated active communication within the team. \
+			<br> •	Programmed test scripts and identified 25+ software errors ranging from critical to those impacting usability \
+			or aesthetics. Catalogued these errors using an issue-tracking tool, delegated debugging tasks to developers, \
+			and tracked tasks to completion."
 		},
 		{
 			"position": "Summer Fellow",
@@ -130,7 +143,13 @@ var work = {
 			"location": "Tamale, GHANA",
 			"dates": "06/12",
 			"url": "http://sahaglobal.org/",
-			"description": ""
+			"description": "• Implemented a self-sustaining water treatment business \
+			serving a population of over 500 at a rural Ghanaian village in a team of 4. \
+			<br> •	Elicited community involvement in the implementation process, trained community\
+			 representatives to run the business, and educated the community about clean \
+			 water procedures through monitoring visits to each village household. \
+			<br> •	Fundraised $4,500 in 3 months through grant writing and an email campaign \
+			 to cover start-up and in-country travel expenses."
 		},
 		{
 			"position": "Undergraduate Researcher",
@@ -138,7 +157,9 @@ var work = {
 			"location": "Cambridge, MA, USA",
 			"dates": "02/11 - 05/12",
 			"url": "https://lmrt.mit.edu/",
-			"description": ""
+			"description": "•	Analyzed protein expression in primary metastatic tumor and \
+			liver metastasis-derived cell lines, which suggested that both produce a similar \
+			profile of key extracellular matrix proteins involved in metastasis."
 		}
 	]
 }
@@ -146,20 +167,35 @@ var work = {
 var volunteer = {
 	"positions": [
 		{
+			"position": "Health Educator",
+			"organization": "Dana Farber Cancer Institute Sun Safety Program",
+			"location": "Boston, MA, USA",
+			"dates": "07/15 - present",
+			"url": "http://www.dana-farber.org/About-Us/Community-Outreach/Dana-Farber-s-Sun-SafetySkin-Cancer-Prevention-Program.aspx",
+			"description": "Educated participants about the risks, warning signs, and preventive \
+			guidelines for skin cancer at Dana-Farber skin cancer screening events. Supported event \
+			logistics and conducted program evaluations using written surveys."
+		},
+		{
 			"position": "Academic Mentor",
 			"organization": "Breakthrough Greater Boston",
 			"location": "Cambridge, MA, USA",
 			"dates": "11/14 - present",
 			"url": "http://www.breakthroughgreaterboston.org/",
-			"description": ""
-		},
+			"description": "Coached a middle-school student enrolled in the Breakthrough Greater Boston Pogram\
+			in math and science. Guided student through homework, explained concepts and problem-solving strategies \
+			using online learning resources, and motivated student to develop study skills and a positive attitude \
+			towards learning."
+		}, 
 		{
-			"position": "Sun Safety Educator",
-			"organization": "Dana Farber Cancer Institute Sun Safety Program",
-			"location": "Boston, MA, USA",
-			"dates": "07/15 - present",
-			"url": "http://www.dana-farber.org/About-Us/Community-Outreach/Dana-Farber-s-Sun-SafetySkin-Cancer-Prevention-Program.aspx",
-			"description": ""
+			"position": "Social Chair (’13), Member Outreach (’12), Cultural Chair (’11)",
+			"organization": "MIT Chinese Students’ Club ",
+			"location": "Cambridge, MA, USA",
+			"dates": "09/10 - 06/14",
+			"url": "http://mitcsc.mit.edu/",
+			"description": "Organized Nightmarket—a 400 person-event featuring 20+ student groups and performers from \
+			Boston schools—and an intercollegiate boat cruise hosting 800 attendees. Collaborated with event coordinators\
+			 from other clubs to formulate and execute event plans involving programming, logistics, and publicity. "
 		}
 	]
 }
@@ -169,7 +205,16 @@ var projects = {
 		{
 			"title": "My Resume",
 			"dates": "06/16",
-			"description": "I created an interactive resume using Udacity's Javascript Basics course. This is it!",
+			"url": "http://jennkao.github.io/resume/",
+			"description": "I created an online resume following Udacity's Javascript Basics course. This is it!",
+			"images": ""
+		},
+		{
+			"title": "Sudoku Puzzle",
+			"dates": "07/16",
+			"url": "http://jennkao.github.io/projects/sudoku/",
+			"description": "I'm a big fan of sudoku and created a webpage with a pre-programed sudoku puzzle. \
+			The program will validate a completed sudoku grid or reveal the completed grid.",
 			"images": ""
 		}
 	]
@@ -206,7 +251,7 @@ projects.display = function() {
 		var formattedDate;
 		var formattedDescrip;
 		var formattedImage;
-		formattedTitle = HTMLprojectTitle.replace("%data%", projectsArray[x]["title"]);
+		formattedTitle = HTMLprojectTitle.replace("%data%", projectsArray[x]["title"]).replace("#", projectsArray[x]["url"]);
 		formattedDate = HTMLprojectDates.replace("%data%", projectsArray[x]["dates"]);
 		formattedDescrip = HTMLprojectDescription.replace("%data%", projectsArray[x]["description"]);
 		formattedImage = HTMLprojectImage.replace("%data%", projectsArray[x]["images"]);

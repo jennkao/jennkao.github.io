@@ -39,12 +39,12 @@ var HTMLworkEmployer = '<a href="#">%data%';
 var HTMLworkTitle = ' - %data%</a>';
 var HTMLworkDates = '<div class="date-text">%data%</div>';
 var HTMLworkLocation = '<div class="location-text">%data%</div>';
-var HTMLworkDescription = '<p><br>%data%</p>';
+var HTMLworkDescription = '<p class = "work"><br>%data%</p>';
 
 var HTMLprojectStart = '<div class="project-entry"></div>';
 var HTMLprojectTitle = '<a href="#">%data%</a>';
 var HTMLprojectDates = '<div class="date-text">%data%</div>';
-var HTMLprojectDescription = '<p><br>%data%</p>';
+var HTMLprojectDescription = '<p class = "project"><br>%data%</p>';
 var HTMLprojectImage = '<img src="%data%">';
 
 var HTMLschoolStart = '<div class="education-entry"></div>';
@@ -65,7 +65,7 @@ var HTMLvolunteerPos = ' - %data%</a>';
 var HTMLvolunteerOrg = '<a href="#">%data%';
 var HTMLvolunteerLoc = '<div class="location-text">%data%</div>';
 var HTMLvolunteerDates = '<div class="date-text">%data%</div>';
-var HTMLvolunteerDesc = '<p><br>%data%</p>';
+var HTMLvolunteerDesc = '<p class= "volunteer"><br>%data%</p>';
 
 var internationalizeButton = '<button>Internationalize</button>';
 var googleMap = '<div id="map"></div>';

@@ -34,6 +34,12 @@ h1 {
   text-align: center;
 }
 
+p.work, 
+p.project,
+p.volunteer {
+  line-height: 150%;
+}
+
 h2 {
   display: flex;
   flex: 1;
