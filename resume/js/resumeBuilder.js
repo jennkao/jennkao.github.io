@@ -170,7 +170,7 @@ var volunteer = {
 			"position": "Health Educator",
 			"organization": "Dana Farber Cancer Institute Sun Safety Program",
 			"location": "Boston, MA, USA",
-			"dates": "07/15 - present",
+			"dates": "07/15 - 04/16",
 			"url": "http://www.dana-farber.org/About-Us/Community-Outreach/Dana-Farber-s-Sun-SafetySkin-Cancer-Prevention-Program.aspx",
 			"description": "Educated participants about the risks, warning signs, and preventive \
 			guidelines for skin cancer at Dana-Farber skin cancer screening events. Supported event \
@@ -180,7 +180,7 @@ var volunteer = {
 			"position": "Academic Mentor",
 			"organization": "Breakthrough Greater Boston",
 			"location": "Cambridge, MA, USA",
-			"dates": "11/14 - present",
+			"dates": "11/14 - 06/16",
 			"url": "http://www.breakthroughgreaterboston.org/",
 			"description": "Coached a middle-school student enrolled in the Breakthrough Greater Boston Pogram\
 			in math and science. Guided student through homework, explained concepts and problem-solving strategies \
