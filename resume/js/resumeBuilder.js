@@ -120,7 +120,7 @@ var work = {
 			"dates": "08/12 - 12/12",
 			"url": "http://student.mit.edu/catalog/m7a.html#7.02",
 			"description": "• Led students through bi-weekly labs and graded class problem sets. Received 6.7/7.0 performance evaluation from \
-			students on criteria like “stimulated interest”, “used good examples”, and “encouraged participation”. \
+			students on criteria such as “stimulated interest”, “used good examples”, and “encouraged participation”. \
 			<br> •	Elucidated experimental design principles and biological concepts, led discussions on \
 			scientific literature with students, and created exam study guides detailing key concepts and problem-solving strategies."
 		},
@@ -130,7 +130,7 @@ var work = {
 			"location": "Cambridge, MA, USA",
 			"dates": "07/12 - 08/12",
 			"url": "http://education.mit.edu/",
-			"description": "•	Acted as point contact for the summer development plan of StarLogo Nova—a visual programming \
+			"description": "•	Acted as the point contact for the summer development plan of StarLogo Nova—a visual programming \
 			language for students—and led development team to debut the program as scheduled with extended functionality. \
 			Prioritized tasks, managed the work of 6 developers, and facilitated active communication within the team. \
 			<br> •	Programmed test scripts and identified 25+ software errors ranging from critical to those impacting usability \
@@ -214,7 +214,7 @@ var projects = {
 			"dates": "07/16",
 			"url": "http://jennkao.github.io/projects/sudoku/",
 			"description": "I'm a big fan of sudoku and created a webpage with a pre-programed sudoku puzzle. \
-			The program will validate a completed sudoku grid or reveal the completed grid.",
+			The program will validate a completed sudoku grid or reveal the puzzle's solution.",
 			"images": ""
 		}
 	]
