@@ -56,9 +56,9 @@ $(document).ready(function() {
  		}
  		var answer = isDone(array);
  		if (answer) {
- 			alert("Finished!");
+ 			alert("You completed the puzzle correctly!");
  		} else {
- 			alert("Try Again!");
+ 			alert("Try again, you got this!");
  		}
 	});
 
