@@ -216,7 +216,7 @@ var projects = {
 			"url": "http://jennkao.github.io/resume/",
 			"description": "I created an online resume following Udacity's Javascript Basics course. This is it!",
 			"images": ""
-		},
+		}
 	]
 }
 
