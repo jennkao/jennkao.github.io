@@ -15,7 +15,7 @@ var bio = {
 		"location": "Cambridge, MA, USA"
 	},
 	"pictureUrl": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAk_AAAAJGExYjBjMzg0LWU5MzAtNDFhNy05NWJkLTJhNTE5NWNiNDMxMA.jpg",
-	"welcomeMessage": "Hey there, I am a research assistant working in Boston and I am exploring \
+	"welcomeMessage": "Hey there, I'm a research assistant working in Boston and I am exploring \
 	software development. This is my first project, and I look forward to many more!",
 	"skills": ["bench science", "research", "project management", "programming", "helping people solve problems"],
 	"interests": ["cooking with friends", "analogue photography", "travel", "long-distance running", "reading non-fiction", "listening to podcasts/music", "watching movies", "discussing current events"]
@@ -95,7 +95,7 @@ var work = {
 			<br> &emsp; &emsp;°	Analyzed data and derived conclusions by comparing and contrasting the results of different\
 			 experiments. \
 			<br> &emsp; &emsp;°	Presented findings, issues, and next steps to research team in weekly meetings and solicited \
-			feedback and insights. \
+			insights and feedback. \
 			<br> •	Improved the visualization of chromosome alterations relevant to a pediatric brain tumor by \
 			testing a range of experimental conditions and developing a protocol that produces optimal images by microscopy. \
 			<br> •	As Lab Support Group Representative, disseminate safety and operations announcements to lab, \
@@ -153,7 +153,7 @@ var work = {
 		},
 		{
 			"position": "Undergraduate Researcher",
-			"employer": "The Bhatia Lab",
+			"employer": "Laboratory for Multiscale Regenerative Technologies",
 			"location": "Cambridge, MA, USA",
 			"dates": "02/11 - 05/12",
 			"url": "https://lmrt.mit.edu/",
@@ -173,7 +173,7 @@ var volunteer = {
 			"dates": "07/15 - 04/16",
 			"url": "http://www.dana-farber.org/About-Us/Community-Outreach/Dana-Farber-s-Sun-SafetySkin-Cancer-Prevention-Program.aspx",
 			"description": "Educated participants about the risks, warning signs, and preventive \
-			guidelines for skin cancer at Dana-Farber skin cancer screening events. Supported event \
+			guidelines for skin cancer at Dana-Farber skin cancer screening events with an on-site dermatologist. Supported event \
 			logistics and conducted program evaluations using written surveys."
 		},
 		{
@@ -203,20 +203,20 @@ var volunteer = {
 var projects = {
 	"projects": [
 		{
-			"title": "My Resume",
-			"dates": "06/16",
-			"url": "http://jennkao.github.io/resume/",
-			"description": "I created an online resume following Udacity's Javascript Basics course. This is it!",
-			"images": ""
-		},
-		{
 			"title": "Sudoku Puzzle",
 			"dates": "07/16",
 			"url": "http://jennkao.github.io/projects/sudoku/",
 			"description": "I'm a big fan of sudoku and created a webpage with a pre-programed sudoku puzzle. \
 			The program will validate a completed sudoku grid or reveal the puzzle's solution.",
 			"images": ""
-		}
+		},
+		{
+			"title": "My Resume",
+			"dates": "06/16",
+			"url": "http://jennkao.github.io/resume/",
+			"description": "I created an online resume following Udacity's Javascript Basics course. This is it!",
+			"images": ""
+		},
 	]
 }
 
