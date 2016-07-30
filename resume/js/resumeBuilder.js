@@ -114,7 +114,7 @@ var work = {
 			<br> &emsp; &emsp;° Presented findings, issues, and next steps to research supervisor in weekly meetings."
 		},
 		{
-			"position": "Teaching Assistant for 7.02 (Experimental Biology)",
+			"position": "Teaching Assistant for Experimental Biology and Communication (7.02))",
 			"employer": "MIT Department of Biology",
 			"location": "Cambridge, MA, USA",
 			"dates": "08/12 - 12/12",
@@ -126,7 +126,7 @@ var work = {
 		},
 		{
 			"position": "Project Manager",
-			"employer": "MIT STEP Lab",
+			"employer": "MIT Scheller Teacher Education Program",
 			"location": "Cambridge, MA, USA",
 			"dates": "07/12 - 08/12",
 			"url": "http://education.mit.edu/",
