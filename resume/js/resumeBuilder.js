@@ -18,7 +18,7 @@ var bio = {
 	"welcomeMessage": "Hey there, I'm a research assistant working in Boston and I am exploring \
 	software development. This is my first project, and I look forward to many more!",
 	"skills": ["bench science", "research", "project management", "programming", "helping people solve problems"],
-	"interests": ["cooking with friends", "analogue photography", "travel", "long-distance running", "reading non-fiction", "listening to podcasts/music", "watching movies", "discussing current events"]
+	"interests": ["cooking with friends", "analogue photography", "reading non-fiction", "travel", "long-distance running", "discussing current events", "listening to podcasts/music", "watching movies"]
 }
 
 var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
